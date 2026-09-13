@@ -1,6 +1,4 @@
 #!/bin/bash
-rm -r dist 
-mkdir dist 
 npm run build:ts
 mkdir -p dist/utils/containers/scripts
 cp -r ./src/utils/containers/scripts/. ./dist/utils/containers/scripts/.

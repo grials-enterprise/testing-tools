@@ -10,7 +10,7 @@
   "scripts": {
     "husky-prepare": "husky install",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
-    "build:ts": "rimraf dist/ && tsc",
+    "build:ts": "rimraf dist/ && tsc -p tsconfig.build.json",
     "build": "bash build.sh",
     "lint": "eslint \"src/**/*.{js,ts}\"",
     "lint:fix": "eslint --fix \"src/**/*.{js,ts}\"",

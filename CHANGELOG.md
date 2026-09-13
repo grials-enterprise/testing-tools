@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.4](https://github.com/grials-enterprise/testing-tools/compare/v1.0.3...v1.0.4) (2026-09-13)
+
+
+### Bug Fixes
+
+* finish job ([257e1bc](https://github.com/grials-enterprise/testing-tools/commit/257e1bc581452ac68e4d07d6b5deb8f2b927348c))
+* merge master ([609b2b8](https://github.com/grials-enterprise/testing-tools/commit/609b2b8be50e5ec8f211102c462da060337a96e1))
+
 ## [1.0.3](https://github.com/grials-enterprise/testing-tools/compare/v1.0.2...v1.0.3) (2026-09-13)
 
 

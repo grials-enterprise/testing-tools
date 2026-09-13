@@ -65,4 +65,4 @@ jobs:
         env:
           NPM_CONFIG_PROVENANCE: false
         run: |
-          npm publish --access public
+          npm stage publish

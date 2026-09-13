@@ -34,6 +34,7 @@ jobs:
     name: Publish Package to NPM
     runs-on: ubuntu-latest
     needs: [release-please]
+    environment: master
     if: ${{ needs.release-please.outputs.release-status == 'true' }}
     permissions:
       contents: read
@@ -45,15 +46,23 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: '24'
+          node-version: 24
           registry-url: 'https://registry.npmjs.org'
-          package-manager-cache: false
 
-      - name: Ensure latest npm
+      - name: Upgrade npm
         run: npm install -g npm@latest
 
-      - name: Publish to NPM
+      - name: Install deps
+        run: npm ci
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Build
+        run: npm run build
+
+      - name: Publish with OIDC trusted publishing
+        env:
+          NPM_CONFIG_PROVENANCE: false
         run: |
-          npm ci
-          npm run lint
           npm publish --access public

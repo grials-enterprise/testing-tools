@@ -1,11 +1,11 @@
 import { EXECUTE } from '../setup';
 import {
+  kafkaConsumer,
+  kafkaProducer,
+  getKafkaClient,
+  KafkaObservable,
   checkHealingKafka,
   generarBearerToken,
-  getKafkaClient,
-  kafkaConsumer,
-  KafkaObservable,
-  kafkaProducer,
 } from '../../src/utils';
 import { assert } from 'console';
 import { EachMessagePayload } from 'kafkajs';

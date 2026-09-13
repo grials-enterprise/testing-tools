@@ -26,16 +26,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/grials/testing-tools.git"
+    "url": "git+https://github.com/grials-enterprise/testing-tools.git"
   },
   "author": {
     "name": "grials.com"
   },
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/grials/testing-tools/issues"
+    "url": "https://github.com/grials-enterprise/testing-tools/issues"
   },
-  "homepage": "https://github.com/grials/testing-tools#readme",
+  "homepage": "https://github.com/grials-enterprise/testing-tools#readme",
   "dependencies": {
     "kafkajs": "2.2.4",
     "mongoose": "8.18.0",

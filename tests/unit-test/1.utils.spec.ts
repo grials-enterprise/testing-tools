@@ -7,9 +7,9 @@ import {
   checkHealingKafka,
   generarBearerToken,
 } from '../../src/utils';
+import { Subject } from 'rxjs';
 import { assert } from 'console';
 import { EachMessagePayload } from 'kafkajs';
-import { Subject } from 'rxjs';
 
 describe('utils', function () {
   if (EXECUTE !== '1' && EXECUTE !== 'ALL') {

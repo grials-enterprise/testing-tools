@@ -1,6 +1,6 @@
 {
   "name": "@grials/testing-tools",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Grials testing tools",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

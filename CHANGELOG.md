@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.0.0 (2026-09-13)
+
+
+### Bug Fixes
+
+* finish init ([0be0d76](https://github.com/grials/testing-tools/commit/0be0d767f08c3b6202c028c7ff2bf18e6c7a4d9d))
+* finish job ([12ca06c](https://github.com/grials/testing-tools/commit/12ca06cf4d10cda51ae38c74e97b67ddf755f268))
+* finish job ([4c81e8a](https://github.com/grials/testing-tools/commit/4c81e8a0f53149bc843681b62cb34b0ffcbba2e0))
+* finish job ([519a472](https://github.com/grials/testing-tools/commit/519a472993cfb9e4a0f8d4884c5651101fdf0aef))
+
 ## [1.0.99](https://github.com/devops-pegasi/testing-tools/compare/v1.0.98...v1.0.99) (2026-02-06)
 
 
